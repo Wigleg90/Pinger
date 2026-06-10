@@ -1,16 +1,26 @@
 # Pinger
 
 > ## ⚠️ Внимание
-> Это программное обеспечение написано **полностью с помощью искусственного интеллекта**.
-> Авторы **не несут никакой ответственности** за любые проблемы, ущерб, потерю данных
-> или иные последствия, возникшие в результате его использования. Вы используете его
-> **на свой страх и риск**.
+> Это ПО написано **полностью с помощью искусственного интеллекта**. Авторы **не несут
+> ответственности** за любые проблемы, ущерб или потерю данных. Используйте на свой риск.
 >
-> This software is written **entirely by AI**. The authors take **no responsibility**
-> for any problems, damage, data loss, or other consequences arising from its use.
-> Use it **at your own risk**.
+> This software is written **entirely by AI**. The authors take **no responsibility** for
+> any problems, damage or data loss. Use it at your own risk.
 
 ---
 
-Сборки клиентов (Android · macOS · Windows) публикуются в разделе **[Releases](../../releases)**.
-Инструкции — в [`docs/instructions`](docs/instructions).
+**Pinger** связывает телефон с компьютером: уведомления, SMS, звонки, медиа, файлы и фото —
+по Wi-Fi, Bluetooth или через облачный relay (сквозное шифрование).
+
+## Загрузки
+Последние сборки — на странице **[Releases](../../releases)**. Клиенты сами проверяют обновления.
+
+## Инструкции по установке
+- 📱 **[Android](docs/instructions/Android)** — приложение на телефоне (источник уведомлений/SMS/звонков)
+- 🍎 **[macOS](docs/instructions/MacOS)** — клиент для Mac
+- 🪟 **[Windows](docs/instructions/Windows)** — клиент для Windows
+
+В каждом разделе: что это, краткая установка и траблшутинг.
+
+## Как это работает
+Телефон (Android) — сервер, отдаёт данные. Компьютеры (macOS/Windows) — клиенты: подключаются и показывают. Сопряжение по QR (клиент показывает, телефон сканирует). Транспорт: Wi-Fi (mDNS) → Bluetooth LE → облачный relay; приоритет у локальной связи.
