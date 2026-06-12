@@ -14,11 +14,11 @@
 
 ## Как это выглядит
 
-> Иллюстрации интерфейса (нарисованы по реальному UI; данные вымышленные).
+> Скриншоты интерфейса.
 
 | Windows | Linux |
 |---|---|
-| ![Windows](docs/screenshots/windows-messages.png) | ![Linux](docs/screenshots/linux.png) |
+| ![Windows](docs/screenshots/windows-files.png) | ![Linux](docs/screenshots/linux.png) |
 
 | macOS | Android |
 |---|---|
