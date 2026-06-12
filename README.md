@@ -12,6 +12,18 @@
 **Pinger** связывает телефон с компьютером: уведомления (со смахиванием на телефоне), SMS с копированием кодов, звонки и контакты, медиа, файлы и фото —
 по Wi-Fi, Bluetooth или через облачный relay (сквозное шифрование).
 
+## Как это выглядит
+
+> Иллюстрации интерфейса (нарисованы по реальному UI; данные вымышленные).
+
+| Windows | Linux |
+|---|---|
+| ![Windows](docs/screenshots/windows-messages.png) | ![Linux](docs/screenshots/linux.png) |
+
+| macOS | Android |
+|---|---|
+| ![macOS](docs/screenshots/macos.png) | <img src="docs/screenshots/android.png" width="280"/> |
+
 ## Загрузки
 Последние сборки — на странице **[Releases](../../releases)**. Клиенты сами проверяют обновления.
 

@@ -9,6 +9,8 @@ Wi-Fi, Bluetooth (BlueZ) или через облачный relay.
 
 **Требования:** Ubuntu 24.04+ / Debian 12+ (GTK4 ≥ 4.12, libadwaita ≥ 1.4, BlueZ).
 
+![Pinger для Linux](../../screenshots/linux.png)
+
 ## Установка
 
 **Вариант 1 — .deb (рекомендуется):**
