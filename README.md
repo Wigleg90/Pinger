@@ -16,13 +16,28 @@
 
 > Скриншоты интерфейса.
 
-| Windows | Linux |
-|---|---|
-| ![Windows](docs/screenshots/windows-files.png) | ![Linux](docs/screenshots/linux.png) |
+<table>
+<tr>
+<td width="70%" valign="top">
 
-| macOS | Android |
-|---|---|
-| ![macOS](docs/screenshots/macos.png) | <img src="docs/screenshots/android.png" width="280"/> |
+**Windows**
+<img src="docs/screenshots/windows-files.png" width="640"/>
+
+**Linux**
+<img src="docs/screenshots/linux.png" width="640"/>
+
+**macOS**
+<img src="docs/screenshots/macos.png" width="640"/>
+
+</td>
+<td valign="top">
+
+**Android**
+<img src="docs/screenshots/android.png" width="260"/>
+
+</td>
+</tr>
+</table>
 
 ## Загрузки
 Последние сборки — на странице **[Releases](../../releases)**. Клиенты сами проверяют обновления.
